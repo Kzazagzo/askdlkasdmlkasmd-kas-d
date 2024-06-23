@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maszyna Losująca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slot-machine">
+        <div class="slots">
+            <div class="slot" id="slot1">?</div>
+            <div class="slot" id="slot2">?</div>
+            <div class="slot" id="slot3">?</div>
+        </div>
+        <div class="loading-bar" id="loadingBar"></div>
+        <button id="spinButton">Losuj</button>
+    </div>
+    <audio id="startSound" src="https://xarpl.github.io/losowanie-tv-gry/sounds/losowanko_start.mp3"></audio>
+    <audio id="loadingSound" src="https://xarpl.github.io/losowanie-tv-gry/sounds/losulosu.mp3"></audio>
+    <audio id="endSound" src="https://xarpl.github.io/losowanie-tv-gry/sounds/trudnetrudne.mp3"></audio>
+    <script src="https://unpkg.com/htmx.org@1.6.1"></script>
+    <script src="script.js"></script>
+</body>
+</html>
